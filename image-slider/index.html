@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image slider</title>
+    <title>Simple Image Slider</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="gallery">
-        <div class="gallery-item">
-            <img class="gallery-item gallery-item-1" src="images/1.jpg" data-index="1">
-            <img class="gallery-item gallery-item-2" src="images/2.jpg" data-index="2">
-            <img class="gallery-item gallery-item-3" src="images/3.jpg" data-index="3">
-            <img class="gallery-item gallery-item-4" src="images/4.jpg" data-index="4">
-            <img class="gallery-item gallery-item-5" src="images/5.jpg" data-index="5">
+    <div class="slider">
+        <div class="slides">
+            <img src="images/1.jpg" alt="Image 1">
+            <img src="images/2.jpg" alt="Image 2">
+            <img src="images/3.jpg" alt="Image 3">
+            <img src="images/4.jpg" alt="Image 4">
+            <img src="images/5.jpg" alt="Image 5">
         </div>
-        <div class="gallery-controls">         
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
